@@ -1,0 +1,5 @@
+@echo off
+SET QMLSCENE=qmlscene
+SET QML2_IMPORT_PATH=%~dp0
+echo QML2_IMPORT_PATH=%QML2_IMPORT_PATH%
+%QMLSCENE% -I . app.qml
